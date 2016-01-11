@@ -88,7 +88,7 @@ code after that can use the `$.ajaxFormData` method.
 require.config({
     paths: {
         'jquery': 'jquery/jquery.min.js',
-        'jquery.formdata': 'jquery/jquery.formdata.js'
+        'jquery.formdata': 'jquery-formdata/jquery.formdata.js'
     },
     shim: {
         'jquery': { exports: 'jQuery' },
